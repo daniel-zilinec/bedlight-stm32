@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name bedlight-nucleo-rescue)(type Legacy)(uri ${KIPRJMOD}/bedlight-nucleo-rescue.lib)(options "")(descr ""))
+  (lib (name bedlight)(type Legacy)(uri ${KIPRJMOD}/bedlight.lib)(options "")(descr ""))
+)

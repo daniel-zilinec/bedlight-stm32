@@ -1,0 +1,303 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4300 4300 3650 4300
+Wire Wire Line
+	4300 4200 3650 4200
+Wire Wire Line
+	4300 4100 3650 4100
+Wire Wire Line
+	5000 2600 5000 2150
+Wire Wire Line
+	5300 4000 6100 4000
+Wire Wire Line
+	5300 4100 6100 4100
+Wire Wire Line
+	5300 4200 6100 4200
+Wire Wire Line
+	5300 4300 6100 4300
+$Comp
+L power:+5V #PWR03
+U 1 1 5F0A09B1
+P 5000 2150
+F 0 "#PWR03" H 5000 2000 50  0001 C CNN
+F 1 "+5V" H 5015 2323 50  0000 C CNN
+F 2 "" H 5000 2150 50  0001 C CNN
+F 3 "" H 5000 2150 50  0001 C CNN
+	1    5000 2150
+	1    0    0    -1  
+$EndComp
+Text Label 5600 4000 0    50   ~ 0
+BUTTON1
+Text Label 5600 4100 0    50   ~ 0
+BUTTON2
+Text Label 5600 4200 0    50   ~ 0
+BUTTON3
+Text Label 5600 4300 0    50   ~ 0
+BUTTON4
+$Comp
+L Transistor_Array:ULN2003A U2
+U 1 1 5F0A1167
+P 4750 5750
+F 0 "U2" H 4750 6417 50  0000 C CNN
+F 1 "ULN2003A" H 4750 6326 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4800 5200 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4850 5550 50  0001 C CNN
+	1    4750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F0AA279
+P 5550 5550
+F 0 "R1" V 5500 5300 50  0000 C CNN
+F 1 "R" V 5500 5750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 5550 50  0001 C CNN
+F 3 "~" H 5550 5550 50  0001 C CNN
+	1    5550 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F0AB484
+P 5550 5650
+F 0 "R2" V 5500 5400 50  0000 C CNN
+F 1 "R" V 5500 5850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 5650 50  0001 C CNN
+F 3 "~" H 5550 5650 50  0001 C CNN
+	1    5550 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F0AB6F6
+P 5550 5750
+F 0 "R3" V 5500 5500 50  0000 C CNN
+F 1 "R" V 5500 5950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 5750 50  0001 C CNN
+F 3 "~" H 5550 5750 50  0001 C CNN
+	1    5550 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5550 5150 5550
+Wire Wire Line
+	5150 5650 5400 5650
+Wire Wire Line
+	5400 5750 5150 5750
+Wire Wire Line
+	4350 5550 3650 5550
+Wire Wire Line
+	4350 5650 3650 5650
+Wire Wire Line
+	4350 5750 3650 5750
+$Comp
+L bedlight:Nucleo-32 U1
+U 1 1 5F0B8276
+P 4800 3600
+F 0 "U1" H 5400 4600 50  0000 C CNN
+F 1 "Nucleo-32" H 5550 4750 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 4800 3600 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 4800 3600 50  0001 C CNN
+	1    4800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5550 5850 5550
+Wire Wire Line
+	5850 5550 5850 5450
+Wire Wire Line
+	5850 5450 6000 5450
+Wire Wire Line
+	5700 5650 6000 5650
+Wire Wire Line
+	5700 5750 5850 5750
+Wire Wire Line
+	5850 5750 5850 5850
+Wire Wire Line
+	5850 5850 6000 5850
+Text Label 3750 5550 0    50   ~ 0
+LED_BLUE
+Text Label 3750 5650 0    50   ~ 0
+LED_GREEN
+Text Label 3750 5750 0    50   ~ 0
+LED_RED
+Text Label 3750 4300 0    50   ~ 0
+LED_BLUE
+Text Label 3750 4200 0    50   ~ 0
+LED_GREEN
+Text Label 3750 4100 0    50   ~ 0
+LED_RED
+$Comp
+L power:+5V #PWR04
+U 1 1 5F0BF4CF
+P 6650 5200
+F 0 "#PWR04" H 6650 5050 50  0001 C CNN
+F 1 "+5V" H 6665 5373 50  0000 C CNN
+F 2 "" H 6650 5200 50  0001 C CNN
+F 3 "" H 6650 5200 50  0001 C CNN
+	1    6650 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5850 6650 5850
+Wire Wire Line
+	6650 5850 6650 5650
+Wire Wire Line
+	6400 5450 6650 5450
+Connection ~ 6650 5450
+Wire Wire Line
+	6650 5450 6650 5200
+Wire Wire Line
+	6400 5650 6650 5650
+Connection ~ 6650 5650
+Wire Wire Line
+	6650 5650 6650 5450
+$Comp
+L power:GND #PWR02
+U 1 1 5F0C08A2
+P 4900 4750
+F 0 "#PWR02" H 4900 4500 50  0001 C CNN
+F 1 "GND" H 4905 4577 50  0000 C CNN
+F 2 "" H 4900 4750 50  0001 C CNN
+F 3 "" H 4900 4750 50  0001 C CNN
+	1    4900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F0C120A
+P 4750 6500
+F 0 "#PWR01" H 4750 6250 50  0001 C CNN
+F 1 "GND" H 4755 6327 50  0000 C CNN
+F 2 "" H 4750 6500 50  0001 C CNN
+F 3 "" H 4750 6500 50  0001 C CNN
+	1    4750 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 6500 4750 6350
+Wire Wire Line
+	4900 4750 4900 4650
+Wire Wire Line
+	4800 4600 4800 4650
+Wire Wire Line
+	4800 4650 4900 4650
+Connection ~ 4900 4650
+Wire Wire Line
+	4900 4650 4900 4600
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F0C2799
+P 7750 3700
+F 0 "SW1" H 7950 3800 50  0000 C CNN
+F 1 "SW_Push" H 8050 3800 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ" H 7750 3900 50  0001 C CNN
+F 3 "~" H 7750 3900 50  0001 C CNN
+	1    7750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5F0C386D
+P 7750 3900
+F 0 "SW2" H 7950 4000 50  0000 C CNN
+F 1 "SW_Push" H 8050 4000 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ" H 7750 4100 50  0001 C CNN
+F 3 "~" H 7750 4100 50  0001 C CNN
+	1    7750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5F0C3B3F
+P 7750 4100
+F 0 "SW3" H 7950 4200 50  0000 C CNN
+F 1 "SW_Push" H 8050 4200 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ" H 7750 4300 50  0001 C CNN
+F 3 "~" H 7750 4300 50  0001 C CNN
+	1    7750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5F0C3EA9
+P 7750 4300
+F 0 "SW4" H 7950 4400 50  0000 C CNN
+F 1 "SW_Push" H 8050 4400 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ" H 7750 4500 50  0001 C CNN
+F 3 "~" H 7750 4500 50  0001 C CNN
+	1    7750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3700 7000 3700
+Wire Wire Line
+	7550 3900 7000 3900
+Wire Wire Line
+	7550 4100 7000 4100
+Wire Wire Line
+	7550 4300 7000 4300
+$Comp
+L power:GND #PWR05
+U 1 1 5F0C7DE1
+P 8200 4650
+F 0 "#PWR05" H 8200 4400 50  0001 C CNN
+F 1 "GND" H 8205 4477 50  0000 C CNN
+F 2 "" H 8200 4650 50  0001 C CNN
+F 3 "" H 8200 4650 50  0001 C CNN
+	1    8200 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3700 8200 3700
+Wire Wire Line
+	8200 3700 8200 3900
+Wire Wire Line
+	7950 3900 8200 3900
+Connection ~ 8200 3900
+Wire Wire Line
+	8200 3900 8200 4100
+Wire Wire Line
+	7950 4100 8200 4100
+Connection ~ 8200 4100
+Wire Wire Line
+	8200 4100 8200 4300
+Wire Wire Line
+	7950 4300 8200 4300
+Connection ~ 8200 4300
+Wire Wire Line
+	8200 4300 8200 4650
+Text Label 7100 3700 0    50   ~ 0
+BUTTON1
+Text Label 7100 3900 0    50   ~ 0
+BUTTON2
+Text Label 7100 4100 0    50   ~ 0
+BUTTON3
+Text Label 7100 4300 0    50   ~ 0
+BUTTON4
+$Comp
+L bedlight:PM6B-3LFS D1
+U 1 1 5F0CBD19
+P 6200 5650
+F 0 "D1" H 6200 6147 50  0000 C CNN
+F 1 "PM6B-3LFS" H 6200 6056 50  0000 C CNN
+F 2 "bedlight-nucleo:PM6B-3LFS" H 6200 5600 50  0001 C CNN
+F 3 "~" H 6200 5600 50  0001 C CNN
+	1    6200 5650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
