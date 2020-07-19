@@ -332,4 +332,92 @@ Wire Wire Line
 	4300 3600 3650 3600
 Text Label 3750 3600 0    50   ~ 0
 OUT4
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F14D77B
+P 9900 2450
+F 0 "H1" H 10000 2496 50  0000 L CNN
+F 1 "MountingHole" H 10000 2405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9900 2450 50  0001 C CNN
+F 3 "~" H 9900 2450 50  0001 C CNN
+	1    9900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F14DF65
+P 9900 2650
+F 0 "H2" H 10000 2696 50  0000 L CNN
+F 1 "MountingHole" H 10000 2605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9900 2650 50  0001 C CNN
+F 3 "~" H 9900 2650 50  0001 C CNN
+	1    9900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F14E2E9
+P 9900 2850
+F 0 "H3" H 10000 2896 50  0000 L CNN
+F 1 "MountingHole" H 10000 2805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9900 2850 50  0001 C CNN
+F 3 "~" H 9900 2850 50  0001 C CNN
+	1    9900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F14E57D
+P 9900 3050
+F 0 "H4" H 10000 3096 50  0000 L CNN
+F 1 "MountingHole" H 10000 3005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9900 3050 50  0001 C CNN
+F 3 "~" H 9900 3050 50  0001 C CNN
+	1    9900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F1504EC
+P 9900 3250
+F 0 "H5" H 10000 3296 50  0000 L CNN
+F 1 "MountingHole" H 10000 3205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9900 3250 50  0001 C CNN
+F 3 "~" H 9900 3250 50  0001 C CNN
+	1    9900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5F1507A3
+P 9900 3450
+F 0 "H6" H 10000 3496 50  0000 L CNN
+F 1 "MountingHole" H 10000 3405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9900 3450 50  0001 C CNN
+F 3 "~" H 9900 3450 50  0001 C CNN
+	1    9900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5F1509F3
+P 9900 3650
+F 0 "H7" H 10000 3696 50  0000 L CNN
+F 1 "MountingHole" H 10000 3605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9900 3650 50  0001 C CNN
+F 3 "~" H 9900 3650 50  0001 C CNN
+	1    9900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5F150BCE
+P 9900 3850
+F 0 "H8" H 10000 3896 50  0000 L CNN
+F 1 "MountingHole" H 10000 3805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9900 3850 50  0001 C CNN
+F 3 "~" H 9900 3850 50  0001 C CNN
+	1    9900 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
